@@ -1,1 +1,13 @@
+/*Larger screen styles frst - Avoid*/
 
+.product-img {
+	width: 50%;
+	float: left;
+}
+
+@media screen and (max-width: 40.5em) {
+	.product-img {
+		width: auto;
+		float: none;
+	}
+}
