@@ -11,3 +11,10 @@
 		float: none;
 	}
 }
+
+/*Using CSS Gradients instead of background images*/
+
+header[role="banner"]{
+	position: relative;
+	background: #111;
+	background: +linear-gradient (top, #111 0%, #222 100%);
