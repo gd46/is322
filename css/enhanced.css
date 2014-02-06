@@ -1,0 +1,23 @@
+@media screen and (min-width: 40.5em) {
+	.product-img {
+		width: 50%;
+		float: left;
+	}
+}
+
+.related-products li {
+	float: left;
+	width: 50%;
+}
+
+@media screen and (min-wdith: 28.75em) {
+	.related-products li {
+		width: 33.3333333%;
+	}
+}
+
+@media screen and min-width: 40.5em) {
+	.related-products li {
+		width: 16.6666667;
+	}
+}
