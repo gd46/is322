@@ -951,4 +951,28 @@ header[role="banner"] .nav {
 }
 /************End Structure**************/
 
+/************Mobile Queries**************/
+@media screen and (min-width: 28.75em) {
+.related-products li {
+		width: 33.3333333%;
+	}
+}
+
+/************Mobile Queries**************/
+
+/************Animations**************/
+@-webkit-keyframes fadein {
+	0% { opacity: 0; }
+	100% { opacity: 1;  }
+}
+@-moz-keyframes fadein {
+	0% { opacity: 0; }
+	100% { opacity: 1;  }
+}
+@-ms-keyframes fadein {
+	0% { opacity: 0; }
+	100% { opacity: 1;  }
+}
+
+
 
