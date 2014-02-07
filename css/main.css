@@ -973,6 +973,74 @@ header[role="banner"] .nav {
 	0% { opacity: 0; }
 	100% { opacity: 1;  }
 }
+/************Resources**************/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/************End Resources**************/
 
+/************Comment Mode**************/
+.has-comment, .has-comment a {
+	cursor: help !important;
+}
+#comment-link a{ 
+	display: block; 
+	background: #9d0000; 
+	color: #fff; 
+	padding: 1em 1.2em; 
+}
+#comment-link a:hover, #comment-link a:focus {
+	background: #c20000;
+}
+#comment-container {
+	background: #333;
+	color: #fff;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 2;	
+	text-align: left;
+	padding: 1em;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+#close-comments {
+	color: #fff;
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	text-transform: uppercase;
+	display: none;
+}
+/************End Comment Mode**************/
 
+/***********Enhanced File CSS*************/
 
+h1{
+	font-size: 2em;
+}
+h2{
+	font-size: 1.6em;
+}
+.btn{
+	display: inline-block;
+}
+.logo{
+	margin: 0;
+	font-size: 1.6em;
+	position: relative;
+	z-index: 1;
+}
+.logo a{
+	display: block;
+	width: 120px;
+	height: auto;
+	padding: 0.6em 1em 0.4em 0.7em;
+}
+.logo img{
+	width: 120px;
+	height: auto;
+}
