@@ -1232,3 +1232,50 @@ header[role="banner"] .nav {
 		padding: 2em 7em;
 	}
 }
+/************Comment Mode**************/
+#comment-link { 
+	position: fixed; 
+	bottom: 0; right: 0; 
+	z-index: 4; 
+	width: 100px; 
+	height: 100px; 
+	overflow: hidden;
+	line-height: 1;
+}
+.csstransforms #comment-link a { 
+	-webkit-transform: rotate(-45deg); 
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg); 
+	-ms-transform: rotate(-45deg); 
+	width: 182px; 
+	height: 100px; 
+	margin-top: 40px;
+	padding: 5px; 
+	text-align: center; 
+}
+#comment-link a strong {
+	display: block;
+}
+#comment-container {
+	position: fixed;
+	top: auto;
+	padding: 1em 1em 4em;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	-webkit-transition: bottom 0.3s ease-out;
+	-moz-transition: bottom 0.3s ease-out;
+  	-webkit-transition: bottom 0.3s ease-out;
+  	-ms-transition: bottom 0.3s ease-out; 
+  	-o-transition: bottom 0.3s ease-out; 
+  	transition:  bottom 0.3s ease-out;
+}
+#close-comments {
+	display: block;	
+}
+
+/* For IE 7, which doesn't support display: inline-block; */
+label, input,textarea, .nav-anchors li, .nav li, .price, .star, .star li, .product-img nav, .product-img nav li, .product-utils a, .reviews header h2, .footer li {
+	zoom: 1;
+	*display: inline;
+}
